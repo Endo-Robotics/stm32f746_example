@@ -2,9 +2,9 @@
 
 #define PING_INSTRUCTION_ADD            1
 /* Error값에 대한 정보
-0x01 Result Fail        전송된 instruction packet을 처리하는데 실패한 경우
+0x01 Result Fail          전송된 instruction packet을 처리하는데 실패한 경우
 0x02 Instruction Error  정의되지 않은 instruction을 사용한 경우, 
-                        Reg Write 없이 Action을 사용한 경우
+                             Reg Write 없이 Action을 사용한 경우
 0x03 CRC Error          전송된 Packet의 CRC 값이 맞지 않는 경우
 0x04 Data Range Error   해당 Address에 쓰려는 Data가 최소/최대값의 범위를 벗어난 경우
 0x05 Data Length Error  해당 Address의 테이터 길이보다 짧은 데이터를 적으려고 한 경우
